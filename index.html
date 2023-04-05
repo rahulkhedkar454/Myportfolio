@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/image/logo.jpg" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   
+  </head>
+  <body>
+    
+
+     <div class="overflow-x-hidden relative w-full">
+      <!-- navbar -->
+     
+      <nav class="p-5 bg-white  shadow md:flex md:items-center md:justify-between">
+        <div class="flex justify-between items-center ">
+          <span class="text-2xl font-mullish font-bold   text-slate-800  cursor-pointer flex items-center ">
+            <img class="h-10 inline mr-2 "
+              src="./image/logo.jpg" >
+           Rahul Khedkar
+          </span>
+    
+          <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+          </span>
+        </div>
+    
+        <ul class="md:flex md:items-center z-[10] md:z-10 md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#home" class=" font-mullish font-semibold  text-lg text-blue-600 hover:text-cyan-500 duration-500">Home</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0 ">
+            <a href="#about" class="font-mullish font-semibold  text-lg text-blue-600 hover:text-cyan-500 duration-500">About</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#skills" class="font-mullish font-semibold  text-lg text-blue-600 hover:text-cyan-500 duration-500">Skills</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#education" class="font-mullish font-semibold  text-lg text-blue-600 hover:text-cyan-500 duration-500">Education</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#portfolio" class="font-mullish font-semibold  text-lg text-blue-600 hover:text-cyan-500 duration-500">Portfolio</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#contact" class="font-mullish font-semibold  text-lg text-blue-600 hover:text-cyan-500 duration-500">Contact</a>
+          </li>
+    
+         
+        </ul>
+      </nav>
+    
+    
+      
+
+
+      
+
+    
+
+      <!--  <hero section> -->
+    <section class="relative pt-10  bg-deepBlue" id="home">
+        <div
+          class="w-10/12 max-w-[1080px] flex flex-col lg:flex-row justify-between items-center mx-auto"
+        >
+          <!-- left part -->
+          <div class="space-y-5">
+            <p class="text-white py-0.5">HI THERE !</p>
+            <h1
+              class="font-mullish font-bold text-[40px] leading-[1] text-white"
+            >
+              I'M <span class="text-yellow-500">Rahul Khedkar</span>
+            </h1>
+            <h3 class="text-lightBlue500">Frontend Developer</h3>
+            <div class="w-6 h-1 bg-greenLight"></div>
+            <p class="font-mullish text-[18px] leading-7 text-white opacity-70">
+              I'm a Web Developer with high level of experience in web designing
+              and development, producting the quality work
+            </p>
+            <button
+              class="bg-lightBlue text-white rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px]"
+            >
+              <a href="./image/Myresume.png">Downlaod Resume</a>
+            </button>
+          </div>
+          <!-- right part -->
+          <img
+            src="./image/hero section.jpg"
+            class="w-full max-w-[600px] rounded-md my-4"
+          />
+        </div>
+      </section> 
+      <!-- about section -->
+      <section class="bg- bg-deepBlue pt-20 pb-20" id="about">
+        <div
+          class="relative w-11/12 max-w-[1080px] mx-auto pt-5 border border-slate-700"
+        >
+          <h2 class="font-mullish font-bold text-2xl text-center text-white">
+            About
+          </h2>
+          <div class="w-10 h-1 bg-greenLight mx-auto mt-0 mb-6"></div>
+          <p class="font-mullish px-6 text-[18px] leading-7 text-white">
+            Hello, and welcome to my portfolio website! My name is
+            <span class="text-yellow-300">Rahul Khedkar</span>, and I am a
+            passionate frontend developer with one years of experience in
+            creating beautiful and responsive websites.
+          </p>
+
+          <p class="font-mullish px-6 py-6 text-[18px] leading-7 text-white">
+            I discovered my love for web development in my college
+            <span class="text-yellow-400">Barkatullah univercity bhopal</span> ,
+            where I learned the fundamentals of HTML, CSS, and JavaScript. I am
+            always looking for new challenges and opportunities to learn and
+            grow as a frontend developer.
+          </p>
+        </div>
+      </section>
+      <!-- skills section-->
+      <section class="relative mt-[100px] overflow-hidden" id="skills">
+        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+          <!-- heading -->
+          <h2
+            class="font-mullish text-center text-2xl leading-[1.2] font-extrabold"
+          >
+            Skills
+          </h2>
+
+          <div class="w-6 h-1 bg-greenLight mx-auto mt-2 mb-6"></div>
+          <!-- content box -->
+          <div
+            class="w-full min-h-[500px] bg-white flex rounded-md relative p-10 border border-slate-900"
+          >
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 justify-between w-full"
+            >
+              <!-- 1 -->
+              <div class="relative">
+                <div class="flex justify-between my-3">
+                  <p>HTML</p>
+                  <p>90%</p>
+                </div>
+                <div class="bg-slate-400 w-full h-2 rounded-md">
+                  <span
+                    class="bg-red-600 absolute w-[90%] h-2 rounded-md"
+                  ></span>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="relative">
+                <div class="flex justify-between my-3">
+                  <p>CSS</p>
+                  <p>80%</p>
+                </div>
+                <div class="bg-slate-400 w-full h-2 rounded-md">
+                  <span
+                    class="bg-red-600 absolute w-[80%] h-2 rounded-md"
+                  ></span>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="relative">
+                <div class="flex justify-between my-3">
+                  <p>Tailwind</p>
+                  <p>88%</p>
+                </div>
+                <div class="bg-slate-400 w-full h-2 rounded-md">
+                  <span
+                    class="bg-red-600 absolute w-[88%] h-2 rounded-md"
+                  ></span>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="relative">
+                <div class="flex justify-between my-3">
+                  <p>Javascript</p>
+                  <p>70%</p>
+                </div>
+                <div class="bg-slate-400 w-full h-2 rounded-md">
+                  <span
+                    class="bg-red-600 absolute w-[70%] h-2 rounded-md"
+                  ></span>
+                </div>
+              </div>
+              <!-- 5 -->
+              <div class="relative">
+                <div class="flex justify-between my-3">
+                  <p>Ract js</p>
+                  <p>80%</p>
+                </div>
+                <div class="bg-slate-400 w-full h-2 rounded-md">
+                  <span
+                    class="bg-red-600 absolute w-[80%] h-2 rounded-md"
+                  ></span>
+                </div>
+              </div>
+              <!-- 6 -->
+              <div class="relative">
+                <div class="flex justify-between my-3">
+                  <p>Java</p>
+                  <p>77%</p>
+                </div>
+                <div class="bg-slate-400 w-full h-2 rounded-md">
+                  <span
+                    class="bg-red-600 absolute w-[77%] h-2 rounded-md"
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- education section -->
+      <section class="relative mt-[100px]" id="education">
+        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-10">
+          <div>
+            <h2
+              class="font-mullish text-center text-2xl leading-[1.2] font-extrabold"
+            >
+              Education
+            </h2>
+          </div>
+          <div class="w-6 h-1 bg-greenLight mx-auto mt-2 mb-6"></div>
+          <div class="w-full grid grid-cols-1 gap-4 mt-10">
+            <!-- box-1 -->
+            <div
+              class="w-full flex min-h-[15rem] relative shadow-lg rounded-md border cursor-pointer"
+            >
+              <div
+                class="bg-deepBlue w-[30%] rounded-md text-center py-20 text-white"
+              >
+                <p class="font-mullish">2021-2025</p>
+                <h2 class="font-mullish font-bold">Bachelor's Degree</h2>
+              </div>
+              <div class="text-center w-[80%] mx-5 my-10">
+                <p class="font-mullish text-xlmx-5">Bachelor of Technology</p>
+                <h2 class="font-mullish text-2xl font-semibold">
+                  BARKATULLAH UNIVERCITY BHOPAL
+                </h2>
+                <p class="font-mullish mx-5">
+                  In my college journey we learn better communication skills.
+                  And worked on varius project.
+                </p>
+              </div>
+            </div>
+            <!-- box-2 -->
+            <div
+              class="w-full flex min-h-[15rem] relative shadow-lg rounded-md border cursor-pointer"
+            >
+              <div
+                class="bg-deepBlue w-[30%] rounded-md text-center py-20 text-white"
+              >
+                <p class="font-mullish">2019-2020</p>
+                <h2 class="font-mullish font-bold">Higher Secondary</h2>
+              </div>
+              <div class="text-center w-[80%] mx-5 my-10">
+                <p class="font-mullish text-xlmx-5">Higher Secondary</p>
+                <h2 class="font-mullish text-2xl font-semibold">
+                  NEHRU SMARTI H.S SCHOOL SENDHWA
+                </h2>
+                <p class="font-mullish mx-5">
+                  The High School was mainly focus on the base of science ,
+                  mathematics and chemistry . There was also a good base on
+                  physics , mathematics and chemisrty . And completed my high
+                  school with 74%
+                </p>
+              </div>
+            </div>
+            <!-- box-3 -->
+            <div
+              class="w-full flex min-h-[15rem] relative shadow-lg rounded-md border cursor-pointer"
+            >
+              <div
+                class="bg-deepBlue w-[30%] rounded-md text-center py-20 text-white"
+              >
+                <p class="font-mullish">2017-2018</p>
+                <h2 class="font-mullish font-bold">Secondary School</h2>
+              </div>
+              <div class="text-center w-[80%] mx-5 my-10">
+                <p class="font-mullish text-xlmx-5">Secondary School</p>
+                <h2 class="font-mullish text-2xl font-semibold">
+                  NEHRU SMARTI H.S SCHOOL SENDHWA
+                </h2>
+                <p class="font-mullish mx-5">
+                  The Secondary aims at Maths , English , Science, Social
+                  Science, Litrature and Languages.And Completed my Secondary
+                  school with 79%
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- project section -->
+      <section class="relative mt-[100px]" id="portfolio">
+        <div class="relative w-11/12 max-w-[1200px] border mx-auto pt-10 pb-10">
+          <div>
+            <h2
+              class="font-mullish text-center text-2xl leading-[1.2] font-extrabold"
+            >
+              Portfolio
+            </h2>
+          </div>
+          <div class="w-6 h-1 bg-greenLight mx-auto mt-2 mb-6"></div>
+          <div>
+            <div
+              class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 px-10"
+            >
+              <!-- box-1 -->
+              <div class="w-full relative cursor-pointer">
+                <img
+                  src="./image/work-1.webp"
+                  alt=""
+                  class="mb-1 shadow-2xl transition-all hover:scale-95"
+                />
+                <a
+                  href="https://razorpayclone454.netlify.app/"
+                  class="py-2 flex bg-deepBlueHead rounded-md items-center justify-center space-x-2"
+                  ><img src="./image/link.png" alt="" width="30px" />
+                  <h2
+                    class="font-mullish text-white rounded-md text-center hover:text-blue-500 font-semibold text-xl bg-deepBlueHead"
+                  >
+                    work-1
+                  </h2></a
+                >
+              </div>
+              <!-- box-2 -->
+              <div class="w-full min-h-[15rem] relative cursor-pointer">
+                <img
+                  src="./image/work-2.jpg"
+                  alt=""
+                  class="shadow-lg transition-all hover:scale-95"
+                />
+                <a
+                  href="https://technicalhub.netlify.app/"
+                  class="py-2 mt-4 flex bg-deepBlueHead rounded-md items-center justify-center space-x-2"
+                  ><img src="./image/link.png" alt="" width="30px" />
+                  <h2
+                    class="font-mullish text-white rounded-md text-center hover:text-blue-500 font-semibold text-xl bg-deepBlueHead"
+                  >
+                    work-2
+                  </h2></a
+                >
+              </div>
+              <!-- box-3 -->
+              <div class="w-full min-h-[15rem] relative cursor-pointer">
+                <img
+                  src="./image/work-3.webp"
+                  alt=""
+                  class="shadow-lg transition-all hover:scale-95"
+                />
+                <a
+                  href="#"
+                  class="py-2 mt-3 flex bg-deepBlueHead rounded-md items-center justify-center space-x-2"
+                  ><img src="./image/link.png" alt="" width="30px" />
+                  <h2
+                    class="font-mullish text-white rounded-md text-center hover:text-blue-500 font-semibold text-xl bg-deepBlueHead"
+                  >
+                    work-3
+                  </h2></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+      <section class="bg-gray-800 relative mt-[100px]" id="contact">
+        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-10 pb-10">
+          <div>
+            <h2
+              class="font-mullish text-center text-2xl text-white leading-[1.2] font-extrabold"
+            >
+              Contact
+            </h2>
+          </div>
+          <div class="w-6 h-1 bg-greenLight mx-auto mt-2 mb-6"></div>
+          <div>
+            <h2 class="font-mullish py-4 font-semibold text-xl text-white">
+              contact info
+            </h2>
+            <div class="flex space-x-2 items-center">
+              <img src="./image/location icon.png" alt="" width="30px" />
+              <h3 class="text-white font-mullish">
+                Saket nagar bhopal , India
+              </h3>
+            </div>
+            <div class="flex space-x-2 my-3 items-center">
+              <img
+                src="./image/emai icon.png"
+                alt=""
+                width="30px"
+                class="rounded-full"
+              />
+              <h3 class="text-white font-mullish">khedkarrahul454@gmail.com</h3>
+            </div>
+            <div class="flex space-x-2 my-3 items-center">
+              <img
+                src="./image/call icon.png"
+                alt=""
+                width="30px"
+                class="rounded-full"
+              />
+              <h3 class="text-white font-mullish">+91-7999831454</h3>
+            </div>
+          </div>
+          <div
+            class="flex bg-white py-2 rounded-md items-center justify-center space-x-2"
+          >
+            <a href="https://github.com/rahulkhedkar454"
+              ><img src="./image/github.png" alt="" width="30px" />
+            </a>
+            <a href="https://www.instagram.com/rahulkhedkar_official/"
+              ><img src="./image/instagram icon.png" alt="" width="30px"
+            /></a>
+            <a href="https://www.linkedin.com/in/rahul-khedkar-0ba028241/">
+              <img src="./image/linkedin icon.png" alt="" width="30px"
+            /></a>
+            <a href="https://telegram.me/Rahul6775"
+              ><img src="./image/telgram icon.png" alt="" width="30px"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+    </div> 
+    <script>
+      function Menu(e){
+        let list = document.querySelector('ul');
+        e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+      }
+    </script>
+   
+  </body>
+</html>
