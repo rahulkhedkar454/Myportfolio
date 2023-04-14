@@ -4,7 +4,7 @@
 
 .typing-animation {
     display: inline-block;
-    animation: typing 3s steps(12) infinite;
+    animation: typing 3s steps(14) infinite;
     white-space: nowrap;
     overflow: hidden;
     border-right: .15em solid orange;
@@ -15,6 +15,6 @@
       width: 0;
     }
     to {
-      width: 90%;
+      width: 80%;
     }
   }
