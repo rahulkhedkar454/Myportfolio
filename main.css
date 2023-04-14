@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.typing-animation {
+    display: inline-block;
+    animation: typing 3s steps(12) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid orange;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  }
