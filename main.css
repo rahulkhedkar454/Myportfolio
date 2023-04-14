@@ -7,7 +7,7 @@
     animation: typing 3s steps(14) infinite;
     white-space: nowrap;
     overflow: hidden;
-    border-right: .15em solid orange;
+/*     border-right: .15em solid orange; */
   }
   
   @keyframes typing {
